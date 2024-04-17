@@ -469,25 +469,25 @@
 
    /* smoothscroll
     * ------------------------------------------------------ */
-   const ssMoveTo = function() {
-    // Check if MoveTo library is available
+//    const ssMoveTo = function() {
+//     // Check if MoveTo library is available
 
-    // Define triggers
-    const triggers = document.querySelectorAll('.smoothscroll');
+//     // Define triggers
+//     const triggers = document.querySelectorAll('.smoothscroll');
 
-    // Initialize MoveTo with custom easing functions
-    const moveTo = new MoveTo({
-        tolerance: 0,
-        duration: 1200,
-        easing: 'easeInOutCubic',
-        container: window
-    }, easeFunctions);
+//     // Initialize MoveTo with custom easing functions
+//     const moveTo = new MoveTo({
+//         tolerance: 0,
+//         duration: 1200,
+//         easing: 'easeInOutCubic',
+//         container: window
+//     }, easeFunctions);
 
-    // Register triggers for smooth scrolling
-    triggers.forEach(function(trigger) {
-        moveTo.registerTrigger(trigger);
-    });
-};
+//     // Register triggers for smooth scrolling
+//     triggers.forEach(function(trigger) {
+//         moveTo.registerTrigger(trigger);
+//     });
+// };
 
      // end ssMoveTo
 
@@ -506,7 +506,7 @@
         ssLightbox();
         ssAlertBoxes();
         ssBackToTop();
-        ssMoveTo();
+        // ssMoveTo();
 
     })();
 
