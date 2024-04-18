@@ -3149,7 +3149,9 @@ img.u-pull-left {
     line-height : 1;
     margin      : 0;
 }
-
+@media screen {
+    
+}
 .s-header__social li {
     padding-left : 0;
     margin-right : .8rem;
@@ -3349,7 +3351,17 @@ img.u-pull-left {
         --header-height : 76px;
     }
 }
-
+@media screen and (max-width: 800px) {
+    #logo {
+        display : inline-block;
+        margin-bottom: 8px;
+}
+}
+@media screen and (min-width: 801px) {
+    #logo {
+        display : none;
+    }
+}
 @media screen and (max-width: 400px) {
     .s-header__logo {
         transform : translate(7vw, -50%);
