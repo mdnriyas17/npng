@@ -3864,7 +3864,7 @@ img.u-pull-left {
 @media screen and (max-width: 800px) {
     .s-services {
         padding-top    : var(--vspace-4);
-        padding-bottom : var(--vspace-4_5);
+        /* padding-bottom : var(--vspace-4_5); */
     }
 }
 
